@@ -125,13 +125,22 @@ nav ul li:last-child {
         grid-template-columns: 300px 300px 300px;
         
         grid-gap:10px;
+        grid-template-rows: 400px 400px;
+        justify-content:center ;
+   
+    }
+
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 600px 300px;
+        
+        grid-gap:10px;
         grid-template-rows: 700px 700px;
         justify-content:center ;
    
     }
 
     .grid-item-4 {
-        grid-template-columns: 600px;
     }
     
 } 
