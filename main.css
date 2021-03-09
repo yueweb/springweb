@@ -118,16 +118,23 @@ nav ul li:last-child {
     order: 3;
      } 
 
-    main {
-        flex-direction: row;
-        
-    }
+    
 
     .grid-container {
         display: grid;
-        grid-template-columns: 200px 200px 200px;
+        grid-template-columns: 300px 300px 300px;
+        
+        grid-gap:10px;
+        grid-template-rows: 700px 700px;
+        justify-content:center ;
+   
     }
-}
+
+    .grid-item-4 {
+        grid-template-columns: 600px;
+    }
+    
+} 
 
 
 
