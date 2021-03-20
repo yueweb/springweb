@@ -1,0 +1,24 @@
+@import url("reset.css");
+@import url("colors.css");
+@import url("grid.css");
+
+
+article {
+    min-height: 300px;
+}
+
+.forest {
+    background-image: url("https://assets.weforum.org/article/image/large_pYZGZE6sRzFmW3Gp9N0dWv7NguNhdFu95Rhr0SvyhkU.jpg");
+    background-size: cover;
+    background-position: center bottom ;
+}
+
+.forest h1, 
+.forest h3 {
+    color:white;
+    padding-left: 20%;    
+}
+
+.forest h1{
+    margin-top: 200px;
+}

@@ -7,6 +7,13 @@ ul.nav-links {
     display: block;
 }
 
+#design {
+    background-color: salmon;
+}
+
+.color{
+    background-color: yellow;
+}
 @media (min-width: 768px) {
   .toggle-button {
         display: none;
@@ -29,11 +36,3 @@ ul.nav-links {
     }
 
 }
-@media(min-width: 1023px){
-    main {
-        
-    header nav ul li {
-        display: inline-block;
-        border-bottom: 0px;
-    }
-} 
