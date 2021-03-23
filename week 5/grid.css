@@ -7,12 +7,39 @@
 .flex-container > *{
     width: 100%;
     margin: 0 auto 20px;
+
 }
+
+.segment {
+    margin: 0px 10px;
+}
+
+
 
 @media (min-width: 768px) {
     .w-md-50 {
         width:50%;
     }
+
+.flex-container > .w-md-50:first-child >.segment {
+    margin-left: 0px;
+}
+
+.flex-container > .w-md-50:last-child >.segment {
+    margin-right: 0px;
+}
+label [for=menuToggle]{
+    display: none;
+}
+header nav ul {
+    display: block;
+}
+
+
+
+
+
+
 }
 
 @media (min-width: 1024px) {
@@ -26,4 +53,13 @@
     .w-lg-25{
         width: 25%;
     }
+
+.flex-container > .w-lg-33:first-child >.segment,
+.flex-container > .w-lg-25:first-child >.segment {
+    margin-left: 0px;
+}
+.flex-container > .w-lg-33:last-child >.segment,
+.flex-container > .w-lg-25:last-child >.segment {
+    margin-right: 0px;
+}
 }

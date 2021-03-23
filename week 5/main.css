@@ -22,3 +22,24 @@ article {
 .forest h1{
     margin-top: 200px;
 }
+
+#menuToggle {
+    display: none;
+}
+
+#toggleButton { 
+    height: 20px;
+    float:right;
+}
+
+header nav ul {
+    display: none;
+}
+
+#menuToggle:checked + ul {
+    display: block;
+}
+
+header nav ul li {
+    padding: 5px 5px;
+}
